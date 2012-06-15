@@ -4,8 +4,8 @@ require File.expand_path('../lib/simple_twitter/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["aforest"]
   gem.email         = ["nickodiangelo@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{search twitter and pull items}
+  gem.summary       = %q{find tweets about certain companys}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
@@ -15,3 +15,4 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = SimpleTwitter::VERSION
 end
+#0110111101101000001000000110100001100101011011000110110001101111
