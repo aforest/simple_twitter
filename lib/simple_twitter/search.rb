@@ -14,4 +14,3 @@ module SimpleTwitter
     end
   end
 end
-
