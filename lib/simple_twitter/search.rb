@@ -10,6 +10,7 @@ module SimpleTwitter
         :q=>query,
         :rpp=>@per_page,}
       response=HTTParty.get(TWITTER_SEARCH,:query =>params,)
+      JSON.parse(response.body)
     end
   end
 end
