@@ -14,5 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "simple_twitter"
   gem.require_paths = ["lib"]
   gem.version       = SimpleTwitter::VERSION
+  gem.add_dependency('httparty','~> 0.8.3')
 end
-#0110111101101000001000000110100001100101011011000110110001101111
+
