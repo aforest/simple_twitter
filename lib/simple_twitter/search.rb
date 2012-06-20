@@ -5,9 +5,9 @@ module SimpleTwitter
     def initialize
       @per_page=10
     end
-    def search(query)
+    def search(search_term)
       params={
-        :q=>query,
+        :q=>search_term,
         :rpp=>@per_page,}
       response=HTTParty.get(TWITTER_SEARCH,:query =>params,)
       JSON.parse(response.body)
