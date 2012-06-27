@@ -6,8 +6,6 @@ require('simple_twitter')
 
 
 class InterfaceUser
-
-  
   def initialize
     @searcher = SimpleTwitter::Search.new
 
@@ -24,8 +22,6 @@ class InterfaceUser
       end
     end.parse!(ARGV)
   end
-
- 
     if ARGV.empty?
       $stderr.puts("Please put what you want to search in your command
       line")
@@ -36,7 +32,6 @@ class InterfaceUser
       pp(@searcher.search(query))
     end
   end
-end
 
 ################################################################################
 UserInterface.new.run
